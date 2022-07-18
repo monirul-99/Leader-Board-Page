@@ -369,3 +369,56 @@ Course  Area End
         transform: translateX(23.5%);
     }
 }
+
+/* Tablet Responsive Area */
+
+@media only screen  and (min-width: 668px) and (max-width: 992px){
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: inherit;
+        margin-right: -15px;
+        margin-left: 115px;
+    }
+    .header-area{
+        width: 1124px;
+    }
+    .container{
+        width: 720px;
+        height: 1180px;
+        margin-left: 205px;
+    }
+
+
+
+    .horizontal-line {
+        width: 401px;
+        margin-left: -8px;
+    }
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .courses {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .course {
+        width: 650px;
+        height: 210px;
+        display: flex;
+        border-radius: 5px;
+        margin-top: 25px;
+        border-radius: 5px;
+        margin-top: 25px;
+    }
+    .course-thamble > img {
+        height: 160px;
+        margin-top: 25px;
+    }
+    .course-details {
+        margin-top: 35px;
+    }
+    .course-container {
+        width: 720px;
+        height: 860px;
+        transform: translateX(23.5%);
+    }
+}
