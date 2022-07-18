@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    background-color: #F3F1FF;
+}
+
+/* -----------------------
+Header navbar Area started 
+--------------------------*/
+
+section.header-area 
+{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background: #562EFF;
+}
+
+ul.nav-items 
+{
+    width: 60%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span.page-logo 
+{
+    display: flex;
+    align-items: center;
+}
+
+span.page-logo img 
+{
+    width: 40px;
+}
+
+span.page-logo li
+{
+    list-style-type: none;
+}
+
+span.logo-text 
+{
+    font-size: 24px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-left: 15px;
+}
+
+span.three-nav-img 
+{
+    display: flex;
+    align-items: center;
+}
+
+span.three-nav-img > li 
+{
+    list-style-type: none;
+    margin-left: 36px;
+}
+
+span.three-nav-img > li > a 
+{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* -----------------------
+Header navbar Area End 
+--------------------------*/
+
+/* -----------------------
+Top Player Area started 
+--------------------------*/
+
+.container
+{
+    width: 60%;
+    height: 790px;
+    border-radius: 5px;
+    margin: auto;
+    background: white;
+}
+
+.top-players 
+{
+    margin-top: 36px;
+    padding: 33px;
+    color: #562EFF;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.player > img 
+{
+    width: 56px;
+}
+
+.player > p
+{
+    font-size: 18px;
+    color: #000000;
+}
+
+p.player-name 
+{
+    margin-left: 16px;
+}
+
+.player 
+{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.players 
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    margin-top: 40px;
+}
+
+/* -----------------------
+Top Player Area End 
+--------------------------*/
+
+
+/* -----------------------
+Horizontal Area started 
+--------------------------*/
+
+.horizontal-line 
+{
+    width: 915px;
+    margin: auto;
+}
+
+hr{
+    border: 1px solid #D1D1D1;
+    margin-top: 50px;
+}
+
+/* -----------------------
+Horizontal Area End 
+--------------------------*/
+
+
+/* -----------------------
+Blogs Area started 
+--------------------------*/
+
+p.blogs-title 
+{
+    padding: 30px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #562EFF;
+    margin-top: -25px;
+}
+
+.blogs-img > img 
+{
+    width: 177px;
+}
+
+.blogs 
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.blog
+{
+    width: 400px;
+    display: flex;
+    margin-top: 26px;
+    align-items: center;
+}
+
+.blogs-info
+{
+    margin-left: 16px;
+}
+
+p.blog-p-tag 
+{
+    color: #9F9F9F;
+}
+
+span.color-change-p 
+{
+    color: #562EFF;
+}
+
+
+/* -----------------------
+Blogs Area End 
+--------------------------*/
+
+
+/* -----------------------
+Course  Area started 
+--------------------------*/
+
+.course-container
+{
+    width: 60%;
+    height: 430px;
+    border-radius: 5px;
+    margin: auto;
+    background: white;
+    margin-bottom: 50px;
+}
+
+.course-thamble > img 
+{
+    width: 290px;
+    margin-left: 15px;
+    margin-top: 13px;
+}
+
+.course-info > h3 
+{
+    color: #1E1E1E;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.course-info > p 
+{
+    font-size: 15px;
+    font-weight: 400;
+    color: #ED6B4F;
+}
+
+.start > i {
+    font-size: 12px;
+    color: #FFC014;
+}
+
+i#gray-color {
+    color: #AEAEAE;
+}
+
+.four-point-five > p {
+    font-size: 15px;
+    color: #A2A2A2;
+}
+
+.duration {
+    width: 94px;
+    height: 29px;
+    border-radius: 15px;
+    background: #FFE4E8;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.rating-area {
+    display: flex;
+    justify-content: space-around;
+    width: 320px;
+    margin-top: 12px;
+}
+
+.latest-course {
+    margin-top: 60px;
+}
+
+.latest-course > p
+{
+    padding: 30px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #562EFF;
+    margin-top: -25px;
+}
+
+.time-size
+{
+    font-size: 14px;
+}
+
+.course
+{
+    width: 320px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.course-info {
+    margin-left: 22px;
+    margin-top: 10px;
+}
+
+/* -----------------------
+Course  Area End 
+--------------------------*/
